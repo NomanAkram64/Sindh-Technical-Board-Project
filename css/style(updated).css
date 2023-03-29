@@ -1,0 +1,1195 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.sbte-logo {
+  margin-left: -10px;
+}
+
+.depart-info .deprt-icon-box {
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  height: 160px;
+  margin: 0 0 28px;
+  padding: 20px 10px 20px 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depart-info .deprt-icon-box img {
+  margin: 0 0 10px;
+  width: 48px;
+  height: 48px;
+}
+
+.container-edit {
+  padding: 5px 50px;
+}
+
+.wf100.tender {
+  padding-bottom: 40px;
+  background-color: #F7F9F9;
+}
+
+
+/* ......tabs here  */
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #F7F9F9;
+}
+
+.tabs__head {
+  padding: 3px 0px;
+  margin: 32px 100px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, .1);
+  border-radius: 30px;
+}
+
+.tabs__toggle {
+  margin: 0px 3px;
+  padding: 16px 22px;
+  background: #fff;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.tabs__name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+}
+
+.tabs__body {
+  margin: 0px 100px;
+  background: #fff;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, .1);
+  border-radius: 25px;
+  /* padding: 30px; */
+  position: relative;
+}
+
+.tabs__title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #484848;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tabs__text {
+  padding: 0px px;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #484848;
+}
+
+.tabs__content {
+  display: none;
+}
+
+.tabs__toggle.is-active {
+  background: #e7eef8;
+}
+
+.tabs__toggle.is-active .tabs__name {
+  color: #2a61d8;
+}
+
+.tabs__content.is-active {
+  display: block;
+}
+
+/* ...............faqs */
+.head-h1 {
+  background: url(../images/npatt.png) rgba(58, 58, 58, 0.1);
+  background-blend-mode: darken;
+}
+
+.heading-h1 {
+  color: #fff;
+}
+
+/* .......................faqs accordian menu and updated css */
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: #eeeeee;
+}
+
+.containerFluid {
+  margin: 30px 50px;
+  width: auto;
+}
+
+.accordion {
+  width: 50em;
+  padding: 8px 8px;
+  border: 1.6px solid #2d4094;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.288) 0px 5px 15px;
+}
+
+.accordion .icon {
+  position: absolute;
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png) no-repeat 8px 7px #102b9c;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease-in;
+}
+
+.accordion h5 {
+  font-size: 22px;
+  margin-left: 40px;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: #1f5c9a;
+}
+
+.active {
+  background-color: #1e379b;
+  color: #102b9c;
+}
+
+.active h5 {
+  color: white;
+}
+
+.active .icon {
+  background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png) no-repeat 8px -25px rgb(255, 255, 255);
+}
+
+.panel {
+  display: inline-block;
+  line-height: 18px;
+  max-height: 0;
+  margin-top: 10px;
+  padding: 0px 15px;
+  border: none;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+.panel p {
+  padding-top: 24px;
+}
+
+.headind-h2 {
+  margin-bottom: 30px;
+  display: flex;
+  padding: 50px 100px;
+  background: url(../images/npatt.png) #2a40a4;
+}
+
+.headind-h2 h2 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .panel {
+    width: auto;
+    margin-left: 10px;
+  }
+
+  .containerFluid {
+    margin: 30px 20px;
+    width: auto;
+  }
+
+  .accordion {
+    width: auto;
+    margin: 0px 0;
+
+  }
+
+  .headind-h2 {
+    padding: 40px 12vw;
+  }
+
+  .accordion h5 {
+    font-size: 15.5px;
+    padding: 5px 0;
+    font-weight: 500;
+  }
+
+  .ol-edit {
+    line-height: 21px;
+    padding-left: 1.5em;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ol-edit {
+    line-height: 22px;
+    padding-left: 2.2em;
+  }
+
+  .panel {
+    margin-top: 0px;
+  }
+
+  .containerFluid {
+    margin: 30px 60px;
+    width: auto;
+  }
+
+  .accordion {
+    width: 65rem;
+    padding: 12px 16px;
+
+
+  }
+
+  .headind-h2 {
+    padding: 50px 10vw;
+  }
+
+  .accordion h5 {
+    font-size: 20px;
+    padding: 4px 0;
+    font-weight: 500;
+  }
+
+  .headind-h2 h2 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ol-edit {
+    line-height: 24px;
+    padding-left: 2.2em;
+  }
+
+  .containerFluid {
+    margin: 30px 60px;
+    width: auto;
+  }
+
+  .accordion {
+    width: 75rem;
+    padding: 12px 16px;
+
+
+  }
+
+  .headind-h2 {
+    padding: 50px 7vw;
+  }
+
+  .accordion h5 {
+    font-size: 22px;
+    padding: 4px 0;
+    font-weight: 500;
+  }
+
+  .headind-h2 h2 {
+    font-size: 5rem;
+  }
+}
+
+
+
+
+
+
+
+
+/* ....................... Alumni */
+.alumni-img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+
+}
+
+
+@media (min-width: 300px) and (max-width: 765px) {
+  .alumi-heading {
+    padding-bottom: 20px;
+    font-size: 48px;
+    color: #001570;
+
+  }
+
+  .container-alumni {
+    line-height: 5px;
+    padding: 0 5px;
+  }
+
+  .alumni-h6 {
+    padding-bottom: 20px;
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    letter-spacing: .6px;
+    line-height: 30px;
+  }
+
+  .alumni-p {
+    text-align: left;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #565656;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1023px) {
+  .alumi-heading {
+    padding-bottom: 20px;
+    font-size: 48px;
+    color: #001570;
+
+  }
+
+  .container-alumni {
+    padding: 0 5px;
+  }
+
+  .alumni-h6 {
+    padding-bottom: 20px;
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 30px;
+  }
+
+  .alumni-p {
+    text-align: left;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #565656;
+    padding-bottom: 10px;
+  }
+
+  .alumni-img {
+    padding-top: 70px;
+
+  }
+}
+
+@media (min-width: 1024px) {
+  .alumi-heading {
+    padding-bottom: 20px;
+    font-size: 56px;
+    color: #001570;
+
+  }
+
+  .container-alumni {
+    padding: 10px 60px;
+  }
+
+  .alumni-h6 {
+    padding-bottom: 20px;
+    color: rgb(31, 31, 31);
+    font-size: 22px;
+    letter-spacing: .4px;
+    line-height: 30px;
+  }
+
+  .alumni-p {
+    text-align: left;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f5f;
+    padding: 0px 20px 30px 0px
+  }
+
+  .alumni-img {
+    padding-top: 40px;
+
+  }
+}
+
+.about-us-h5 {
+  padding-bottom: 20px;
+  color: rgb(31, 31, 31);
+  font-size: 32px;
+  letter-spacing: .4px;
+  line-height: 30px;
+
+}
+
+.about-us-heading {
+  padding-bottom: 20px;
+  font-size: 48px;
+  color: #001570;
+}
+
+.about-us-p2 {
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.h5-chairman {
+  margin-top: 25px;
+  border-bottom-style:inset;
+  border-bottom-width: 1px;
+
+}
+
+/* .................... alumni end  */
+
+/* ................... contact us  */
+@media (min-width: 300px) and (max-width: 768px) {
+  .contact-form {
+    padding: 10px 20px;
+  }
+
+  .paddown {
+    padding-bottom: 20px;
+  }
+
+  .container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .contact-form textarea {
+    margin: 0 5px;
+  }
+
+  .margtp {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+}
+
+
+/* ......................gallery*/
+@media (min-width: 300px) and (max-width: 768px) {
+  .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  }
+
+  .card-content {
+    padding: 20px 5px 5px 5px;
+  }
+
+  .link-text {
+    font-size: 17px;
+  }
+}
+
+/* .......................gallery ... in ... content */
+@media (min-width: 300px) and (max-width: 768px) {
+
+  .card-content-gallery {
+    width: 28rem;
+    height: 25rem;
+    margin: 10px 15px;
+  }
+
+  .card-content-gallery img {
+    width: 28rem;
+    height: 25rem;
+  }
+
+  .h3-navbar .navbar .navbar-nav>li>a:after {
+    height: 2px;
+  }
+
+  #media-edit-section {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 768px){
+  #media-edit-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+}
+
+/* ............................verification */
+.container .form {
+  margin-top: 10px;
+}
+
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.input-box label {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+
+}
+
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1.8rem;
+  color: #707070;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+
+.form .gender-box {
+  margin-top: 20px;
+}
+
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .gender {
+  column-gap: 5px;
+}
+
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+
+.gender label {
+  color: #707070;
+}
+
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #2a40a4;
+}
+
+.form button:hover {
+  background: #1d2e7a;
+}
+
+.para {
+  font-size: 15px;
+  padding: 10px 15px;
+  color: #707070;
+
+}
+
+.form-head {
+  font-size: 40px;
+}
+
+.container-heading {
+  padding: 45px 45px;
+  display: flow-root;
+
+}
+
+input[type=file] {
+  padding: 15px 0px 35px 15px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+
+.select {
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  padding: 0 16px;
+}
+
+.container-main {
+  padding: 0px;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .form-head {
+    font-size: 34px;
+  }
+
+  .container-heading {
+    padding: 25px 8px 0px 8px;
+    display: flow-root;
+
+  }
+
+  .para {
+    font-size: 1.4rem;
+    padding: 8px 0px 0px 0px;
+    color: #707070;
+
+  }
+
+  .form button {
+    height: 45px;
+    width: 100%;
+    border-radius: 6px;
+
+  }
+
+  .row-insert {
+    padding: 0px 20px;
+
+  }
+
+  .form-label {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .form-head {
+    font-size: 3.1em;
+  }
+
+  .label-text {
+    font-size: 1.6rem;
+  }
+
+  .container-heading {
+    /* padding: 40px 0px 0px 0px; */
+    display: flow-root;
+
+  }
+
+  .para {
+    font-size: 1.6rem;
+    padding: 5px 0px 0px 12px;
+    color: #707070;
+  }
+
+  .form-label {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-weight: 400;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .form-head {
+    font-size: 3.5em;
+  }
+
+  .container-heading {
+    padding: 40px 20px 0px 20px;
+    display: flow-root;
+
+  }
+
+  .para {
+    font-size: 1.7rem;
+    padding: 5px 10px;
+    color: #707070;
+  }
+
+  .label-text {
+    font-size: 1.7rem;
+  }
+
+  .form-label {
+    font-size: 1.5rem;
+    margin-bottom: 5pxpx;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+
+  .form button {
+    height: 45px;
+    width: 100%;
+    border-radius: 6px;
+
+  }
+
+
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .card-edit {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .deprt-icon-box {
+    width: 290px;
+
+  }
+
+  .h3-navbar .navbar {
+    padding-bottom: 5px;
+  }
+
+  .nav-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-links {
+    display: list-item;
+    text-align: center;
+  }
+
+  #bd-r {
+
+    border-right: 1px solid rgb(206, 206, 206);
+    list-style: none;
+    margin: 10px 5px
+  }
+
+  .side_menu ul li {
+    border: none;
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 15px;
+  }
+
+  #nav-mob {
+    list-style: none;
+    display: flex;
+    width: 300px;
+    padding-top: 10px;
+  }
+
+  .h3-heading {
+    padding-top: 10px;
+    font-size: 26px;
+  }
+
+  .alumni-p {
+    font-size: 15px;
+  }
+
+  .side_menu ul {
+    padding: 10px 0px 0px;
+  }
+
+  .sbte-logo {
+    padding-bottom: 5px;
+  }
+
+  .m_navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-mob {
+    list-style: none;
+    display: flex;
+    width: 300px;
+    padding-top: 5px;
+  }
+
+  .m_navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #bd-r {
+    border-right: 1px solid rgb(206, 206, 206);
+    list-style: none;
+    margin: 10px 5px
+  }
+
+  .side_menu ul li {
+    border: none;
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 15px;
+  }
+
+  .side_menu ul {
+    margin-bottom: 0px;
+  }
+
+  #topbar-nav {
+    width: 70%;
+    padding: 0px 0px 0px 30px;
+  }
+
+  .nav-btn {
+    width: 30%;
+  }
+
+  .become-vol {
+    padding: 0 10px;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  #topbar-edit {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .sbte-logo {
+    width: 300px;
+  }
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+  #sbtelogo-ft {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1060px) {
+  .become-vol {
+    padding: 2px 18px;
+    font-size: 13px;
+    margin-top: 0px;
+  }
+
+  .side_menu ul li {
+    font-size: 16px;
+  }
+
+  .side_menu ul {
+    padding: 8px 0px 0px 0px;
+
+  }
+
+  .sbte-logo {
+    width: 315px;
+    margin-right: 100px;
+  }
+
+  .form-control {
+    height: 36px;
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+.side_menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+/* .....................cources */
+.catagories {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.catagories li {
+  padding: 5px 0px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.catagories-courses{
+  list-style: none;
+  padding-left: 30px;
+}
+.catagories-courses li{
+  padding: 5px 0px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.blog-post {
+  display: flex;
+  align-items: center;
+  max-width: 90rem;
+  background-color: #fff;
+  padding: 2.5rem;
+  box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+}
+
+.blog-post__img {
+  position: relative;
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 25rem;
+  transform: translateX(-8rem);
+}
+
+.blog-post__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.blog-post__img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+  opacity: 0.5;
+}
+
+.blog-post__title {
+  font-size: 2.8rem;
+  margin: 1rem 0 2rem;
+  text-transform: uppercase;
+  color: #263c94;
+
+}
+
+.blog-post__info p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.blog-post__cta {
+  display: inline-block;
+  background-color: #263b94;
+  padding: 1.2rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0.8rem;
+}
+
+@media (min-width:1068px) {
+  .blog-post {
+     max-width: 100rem;
+     width: 100%;
+     margin-left: 50px;
+
+  }
+
+}
+
+
+  .blog-post {
+     max-width: 80rem;
+     width: 100%;
+     margin-left: 50px;
+  }
+
+  .blog-post__img {
+  min-width: 30rem;
+  max-width: 30rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .row-edit {
+     padding-top: 70px;
+  }
+
+  .blog-post {
+     max-width: 45rem;
+     padding: 2.5rem;
+     flex-direction: column;
+     margin-bottom: 40px;
+  }
+  .blog-post__info{
+     transform: translate(0, -6rem);
+  }
+
+  .blog-post__img {
+     min-width: 100%;
+     transform: translate(0, -8rem);
+  }
+}
+
+.row-edit {
+  display: flex;
+  justify-content: center;
+  padding: 70px 20px 20px 20px;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .blog-post__img{
+     height: 16rem;
+     width: 25rem;
+  }
+}
+.deprt-icon-box p {
+  background-color: #102b9c;
+  color: white;
+  border-radius: 15px;
+  width: 120px;
+  padding: 3px 1px 1px 1px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.deprt-icon-box hvr-grow-shadow:hover p.rm {
+  opacity: 1;
+}
+#nav-mob{
+  display: none;
+}
+#table-edit{
+  border-radius: 28px; padding: 0px;background-color: white; overflow-x: auto; overflow-y: hidden; display: block;
+}
+
+@media (min-width: 300px) and (max-width: 768px){
+  .about-us-h5{
+    padding: 40px 0px 20px 0px;
+  }
+}
+
+.container-courses{
+  padding: 30px 20px;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+  ul.funds li {
+    font-size: 17px;
+  }
+  .aviation-img{
+    height: 200px;
+  }
+}
+
+/* ..................diploma */
+.ft-edit{
+font-size: 36px;
+}
+.ft-edit-h6{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* .......role of chairman */
+@media (min-width: 200px) and (max-width: 800px) {
+  .main-oc{
+    margin: none;
+  }
+  .pd-t{
+    padding-top: 30px;
+  }
+}
+@media (min-width: 800px){
+  .main-oc{ margin: 0px 150px; } 
+
+  }
+
+  .tabs__head__diploma {
+    width: max-content;
+    padding: 3px 0px;
+    margin: 32px 0px 20px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+}
+.tabs__body__diploma{
+  
+  margin: 15px 0px 0px 15px;
+  background: #fff;
+  box-shadow: 0px 4px 5px rgb(0 0 0 / 10%);
+  border-radius: 25px;
+  position: relative;
+
+}
+
+/* ............diploma engineer */
+.tabs-h4{
+  padding: 14px 10px 10px 30px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../images/npatt.png) #2a40a4;
+}
+
